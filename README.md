@@ -1,23 +1,23 @@
-# 📖 História da Code Solutions - Site Interativo
+# 📖 Guardiões da Reciclagem - Site Interativo
 
-![Logo Code Solutions](./assets/logo-guardioes.png)
+![Logo Guardiões da Reciclagem](./assets/logo-guardioes.png)
 
-Este site conta a **história da Code Solutions** em formato de HQ, apresentando nossos projetos e os fundadores da empresa. Desenvolvido com **HTML, CSS e JavaScript**, o site proporciona uma experiência interativa e visual, ideal para explorar nossa trajetória.
+Este site conta a **história do jogo Guardiões da Reciclagem** em formato de HQ, mostrando os personagens, fundadores e a missão de incentivar a reciclagem. Desenvolvido com **HTML, CSS e JavaScript**, proporciona uma experiência interativa e divertida para todas as idades.
 
 ---
 
 ## 🚀 Funcionalidades
-- História em quadrinhos interativa sobre a Code Solutions.  
-- Apresentação dos fundadores da empresa.  
+- História em quadrinhos interativa sobre os Guardiões da Reciclagem.  
+- Apresentação dos personagens e fundadores do jogo.  
 - Layout responsivo e visualmente atrativo.  
-- Navegação simples e fluida entre seções.  
+- Navegação fluida entre seções da HQ.  
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5** → Estrutura do site  
-- **CSS3** → Estilização e animações  
-- **JavaScript** → Interatividade e efeitos dinâmicos  
+- **CSS3** → Estilização, animações e efeitos visuais  
+- **JavaScript** → Interatividade e navegação dinâmica  
 
 ---
 
