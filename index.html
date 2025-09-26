@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardiões da Reciclagem - A História</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="main-nav">
+            <ul class="nav-links">
+                <li><a href="#historia">A História</a></li>
+                <li><a href="#animacao">Animação</a></li>
+                <li><a href="#equipe">A Equipe</a></li>
+            </ul>
+        </nav>
+
+        <div id="globo-container"></div>
+        <img src="./assets/logo-guardioes.png" alt="Logo Guardiões da Reciclagem" class="logo-hero">
+        <div class="scroll-indicator">
+            <span>Role para baixo</span>
+            <div class="arrow"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="historia" class="container">
+            <h2>A História em Quadrinhos</h2>
+            <div class="hq-container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./assets/quadro-01.png" alt="Quadro 1"></div>
+                        <div class="swiper-slide"><img src="./assets/quadro-02.png" alt="Quadro 2"></div>
+                        <div class="swiper-slide"><img src="./assets/quadro-03.png" alt="Quadro 3"></div>
+                        <div class="swiper-slide"><img src="./assets/quadro-04.png" alt="Quadro 4"></div>
+                        <div class="swiper-slide"><img src="./assets/quadro-05.png" alt="Quadro 5"></div>
+                        <div class="swiper-slide"><img src="./assets/quadro-06.png" alt="Quadro 6"></div>
+                        <div class="swiper-slide"><img src="./assets/quadro-07.png" alt="Quadro 7"></div>
+                        <div class="swiper-slide"><img src="./assets/quadro-08.png" alt="Quadro 8"></div>
+                    </div>
+                    
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="animacao" class="container">
+            <h2>Versão Animada</h2>
+            <div class="video-container">
+                <video controls width="100%">
+                    <source src="./assets/historia-animada.mp4" type="video/mp4">
+                    Seu navegador não suporta o vídeo.
+                </video>
+            </div>
+        </section>
+
+        <section id="equipe" class="container">
+            <h2>Os Guardiões Criadores</h2>
+            <div class="imagem-equipe-container">
+                <img src="./assets/imagem-da-equipe.png" alt="Imagem da equipe Guardiões da Reciclagem" class="imagem-equipe">
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="site-footer">
+        <p>&copy; 2025 Guardiões da Reciclagem. Todos os direitos reservados.</p>
+    </footer>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.157.0/build/three.module.js"
+            }
+        }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
